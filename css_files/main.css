@@ -399,7 +399,8 @@ nav a:hover {
   transition: 0.5s linear;
 }
 
-.tooltip-container a { color: fff; }
+.tooltip a { color: fff; }
+
 footer {
     width: 100%;
     min-height: 300px;
