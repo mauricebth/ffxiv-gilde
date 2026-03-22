@@ -150,7 +150,7 @@ label {
   padding: 0 3rem;
   width: 60%;             
   max-width: 900px;                
-  background: rgba(0, 0, 0, 0.329);   
+  background: rgba(20, 32, 139, 0.329);    
   backdrop-filter: blur(12px);     
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
   border-radius: 9999px;          
