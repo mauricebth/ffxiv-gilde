@@ -23,13 +23,85 @@ body {
     overflow-x: hidden;
 }
 
+/* 📱 MOBILE (bis 768px) */
+@media (max-width: 768px) {
+
+  /* Navigation */
+  .main-nav {
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: auto;
+    padding: 1rem;
+    top: 0;
+  }
+
+  .main-nav.stuck {
+    width: 95%;
+    border-radius: 16px;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+
+  /* HERO */
+  #hero {
+    min-height: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .head_cover {
+    padding: 1.5rem;
+  }
+
+  /* GRID FIXES */
+  .teaser-grid {
+    grid-template-columns: 1fr;   /* 🔥 wichtig */
+    margin: 4rem auto;
+  }
+
+  .team-member {
+    grid-template-columns: 1fr;   /* 🔥 wichtig */
+    margin-left: 0;
+  }
+
+  .activities-grid {
+    grid-template-columns: 1fr;   /* 🔥 wichtig */
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .ctparent {
+    grid-template-columns: 1fr;
+  }
+
+  /* Bilder / Karten */
+  .member-card {
+    max-width: 100%;
+  }
+
+  .portrait-wrapper {
+    right: 0;
+  }
+
+  /* Buttons */
+  .interact_button {
+    margin-top: 2rem;
+    justify-content: center;
+  }
+}
+
 /* Basic Formatierungen */
 
 a {
     color: inherit;
     text-decoration: none;
     transition: color 0.3s ease;
-    color: #0099ff;
+    color: #0099aa;
 }
 
 button,
