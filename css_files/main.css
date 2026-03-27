@@ -325,6 +325,10 @@ nav a:hover {
   margin-top: 80px;
 }
 
+.interact_button a {
+    color: #fff;
+}
+
 .interact_button:hover {
   background: #4225c5;
 }
